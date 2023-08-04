@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\Home\HomeSliderController;
 use Faker\Guesser\Name;
 use Illuminate\Support\Facades\Route;
 
@@ -39,5 +40,13 @@ Route::middleware('auth')->group(function () {
 Route::controller(AdminController::class)->group(function(){
     Route::get('/admin/logout', 'destroy')->name('admin.logout');
 });
+
+//Home all route
+
+Route::controller(HomeSliderController::class)->group(function(){
+    Route::get('/home/slide', 'HomeSlider')->name('home.slide');
+});
+
+
 
 require __DIR__.'/auth.php';

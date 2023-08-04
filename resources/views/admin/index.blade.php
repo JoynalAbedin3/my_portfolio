@@ -2,7 +2,7 @@
 
 
 
-@section('content')
+@section('admin')
 <div class="page-content">
     <div class="container-fluid">
         

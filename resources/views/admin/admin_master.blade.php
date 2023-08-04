@@ -50,7 +50,7 @@
             <!-- ============================================================== -->
             <div class="main-content">
 
-               @yield('content')
+               @yield('admin')
                 <!-- End Page-content -->
                
             @include('admin.body.footer')
