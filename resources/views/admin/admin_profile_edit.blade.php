@@ -52,7 +52,7 @@
                 </div>
             </div>
             <!-- end row -->
-<input type="submit" class="btn btn-info waves-effect waves-light" value="Update Profile">
+            <input type="submit" class="btn btn-info waves-effect waves-light" value="Update Profile">
             </form>
 
 
