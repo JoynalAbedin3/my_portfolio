@@ -11,10 +11,12 @@ class HomeSlide extends Model
 
     protected $guarded = [];
 
-    // protected $fillable = [ 
+    // protected $fillable = [
     //     'title',
     //     'short_title',
     //     'home_slide',
     //     'video_url',
     // ];
+
+
 }
