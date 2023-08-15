@@ -1,1 +1,1 @@
-<img src="{{asset('backend/assets/logo/jlogo.jpg')}}" width="100px" alt="">
+<img src="{{ asset('logo/eleblack.png') }}" width="100px" >

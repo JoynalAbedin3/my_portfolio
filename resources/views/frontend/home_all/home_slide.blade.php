@@ -1,3 +1,4 @@
+
 @php
 $homeslide = App\Models\HomeSlide::find(1);
 

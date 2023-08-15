@@ -4,14 +4,12 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use App\Models\user;
+use App\Models\User;
 use Illuminate\Support\Facades\Hash;
- 
- 
 
 class AdminController extends Controller
 {
-    public function destroy(Request $request)  
+     public function destroy(Request $request)
     {
         Auth::guard('web')->logout();
 
@@ -19,23 +17,21 @@ class AdminController extends Controller
 
         $request->session()->regenerateToken();
 
-    
-
         $notification = array(
             'message' => 'User Logout Successfully', 
             'alert-type' => 'success'
         );
 
         return redirect('/login')->with($notification);
-    }
+    } // End Method 
 
-    public function profile(){
-        
+
+    public function Profile(){
         $id = Auth::user()->id;
-        $adminData = user::find($id); 
-
+        $adminData = User::find($id);
         return view('admin.admin_profile_view',compact('adminData'));
-    }
+
+    }// End Method 
 
 
     public function EditProfile(){
@@ -50,7 +46,7 @@ class AdminController extends Controller
         $data = User::find($id);
         $data->name = $request->name;
         $data->email = $request->email;
-        // $data->username = $request->username;
+        $data->username = $request->username;
 
         if ($request->file('profile_image')) {
            $file = $request->file('profile_image');
@@ -68,7 +64,8 @@ class AdminController extends Controller
 
         return redirect()->route('admin.profile')->with($notification);
 
-    }
+    }// End Method
+
 
     public function ChangePassword(){
 
@@ -78,6 +75,7 @@ class AdminController extends Controller
 
 
     public function UpdatePassword(Request $request){
+
         $validateData = $request->validate([
             'oldpassword' => 'required',
             'newpassword' => 'required',
@@ -98,8 +96,9 @@ class AdminController extends Controller
             return redirect()->back();
         }
 
-    }
+    }// End Method
+
+
+
 }
-
-
-
+ 
