@@ -13,8 +13,9 @@ $route = Route::current()->getName();
     <div class="menu__wrap">
     <nav class="menu__nav">
     <div class="logo">
-    <a href="index.html" class="logo__black"><img src="{{ asset('frontend/assets/img/logo/logo_black.png') }}" alt=""></a>
-    <a href="index.html" class="logo__white"><img src="{{ asset('frontend/assets/img/logo/logo_white.png') }}" alt=""></a>
+         <a class="h1" href="{{ route('home') }}">JOYNAL</a>   
+    {{-- <a href="index.html" class="logo__black"><img src="{{ asset('frontend/assets/img/logo/logo_black.png') }}" alt=""></a>
+    <a href="index.html" class="logo__white"><img src="{{ asset('frontend/assets/img/logo/logo_white.png') }}" alt=""></a> --}}
     </div>
     <div class="navbar__wrap main__menu d-none d-xl-flex">
     <ul class="navigation">
@@ -30,7 +31,7 @@ $route = Route::current()->getName();
          
     </li>    
 
-    <li class="{{ ($route == 'home.blog') ? 'active' : '' }}"><a href="{{ route('home.blog') }}">Our Blog</a>
+    <li class="{{ ($route == 'home.blog') ? 'active' : '' }}"><a href="{{ route('home.blog') }}">Blog</a>
         
     </li>
     <li class="{{ ($route == 'contact.me') ? 'active' : '' }}"><a href="{{ route('contact.me') }}">contact me</a></li>
@@ -41,7 +42,7 @@ $route = Route::current()->getName();
 
 
     <div class="header__btn d-none d-md-block">
-    <a href="contact.html" class="btn">Contact me</a>
+    <a href="{{ route('contact.me') }}" class="btn">Contact me</a>
     </div>
     </nav>
     </div>

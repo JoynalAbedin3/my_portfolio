@@ -59,7 +59,7 @@
                                         <button type="submit" class="btn">send massage</button>
                                     </form>
                                 </div>
-                                <div class="widget">
+                                {{-- <div class="widget">
                                     <h5 class="title">Project Information</h5>
                                     <ul class="sidebar__contact__info">
                                         <li><span>Date :</span> January, 2021</li>
@@ -71,14 +71,14 @@
                                         </li>
                                         <li><span>Project Link :</span> <a href="portfolio-details.html">https://www.yournews.com/</a></li>
                                     </ul>
-                                </div>
+                                </div> --}}
                                 <div class="widget">
                                     <h5 class="title">Contact Information</h5>
                                     <ul class="sidebar__contact__info">
-                                        <li><span>Address :</span> 8638 Amarica Stranfod, <br> Mailbon Star</li>
-                                        <li><span>Mail :</span> yourmail@gmail.com</li>
-                                        <li><span>Phone :</span> +7464 0187 3535 645</li>
-                                        <li><span>Fax id :</span> +9 659459 49594</li>
+                                        <li><span>Address :</span> Mirpur,Dhaka <br> Bangladesh</li>
+                                        <li><span>Mail :</span> abedinj3@gmail.com</li>
+                                        <li><span>Mobile:</span> +880 1743121264</li>
+                                        {{-- <li><span>Fax id :</span> +9 659459 49594</li> --}}
                                     </ul>
                                     <ul class="sidebar__contact__social">
                                         <li><a href="#"><i class="fab fa-dribbble"></i></a></li>

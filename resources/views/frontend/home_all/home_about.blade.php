@@ -32,7 +32,7 @@ $allMultiImage = App\Models\MultiImage::all();
     </div>
     </div>
     <p class="desc">{{ $aboutpage->short_description }}</p>
-    <a href="about.html" class="btn">Download my resume</a>
+    <a href="https://drive.google.com/drive/folders/1Jj29UsSDLz77Lcdp6oXei9nawwEg5ida?usp=sharing" class="btn">Download my resume</a>
     </div>
     </div>
     </div>

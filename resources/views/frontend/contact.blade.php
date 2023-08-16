@@ -105,8 +105,8 @@ Contact | EasyLearning Website
                                 </div>
                                 <div class="contact__info__content">
                                     <h4 class="title">Mail Address</h4>
-                                    <span>email@example.com</span>
-                                    <span>info@yourdomain.com</span>
+                                    <span>abedinj3@gmail.com</span>
+                                    {{-- <span>info@yourdomain.com</span> --}}
                                 </div>
                             </div>
                         </div>
@@ -115,7 +115,7 @@ Contact | EasyLearning Website
             </section>
             <!-- contact-info-area-end -->
 
-            <!-- contact-area -->
+            {{-- <!-- contact-area -->
             <section class="homeContact homeContact__style__two">
                 <div class="container">
                     <div class="homeContact__wrap">
@@ -144,7 +144,7 @@ Contact | EasyLearning Website
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <!-- contact-area-end -->
 
         </main>

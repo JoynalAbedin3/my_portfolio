@@ -2,7 +2,7 @@
 @section('main')
 
 @section('title')
-Home | EasyLearning Website
+Home | Joynal
 @endsection
     <!-- banner-area -->
     @include('frontend.home_all.home_slide')
@@ -12,7 +12,7 @@ Home | EasyLearning Website
     @include('frontend.home_all.home_about')
     <!-- about-area-end -->
 
-    <!-- services-area -->
+    {{-- <!-- services-area -->
     <section class="services">
     <div class="container">
     <div class="services__title__wrap">
@@ -142,9 +142,9 @@ Home | EasyLearning Website
     </div>
     </div>
     </section>
-    <!-- services-area-end -->
+    <!-- services-area-end --> --}}
 
-    <!-- work-process-area -->
+    {{-- <!-- work-process-area -->
     <section class="work__process">
     <div class="container">
     <div class="row justify-content-center">
@@ -211,7 +211,7 @@ Home | EasyLearning Website
     </div>
     </div>
     </section>
-    <!-- work-process-area-end -->
+    <!-- work-process-area-end --> --}}
 
     <!-- portfolio-area -->
     
@@ -220,7 +220,7 @@ Home | EasyLearning Website
     <!-- portfolio-area-end -->
 
     <!-- partner-area -->
-    <section class="partner">
+    {{-- <section class="partner">
     <div class="container">
     <div class="row align-items-center">
     <div class="col-lg-6">
@@ -264,10 +264,10 @@ Home | EasyLearning Website
     </div>
     </div>
     </section>
-    <!-- partner-area-end -->
+    <!-- partner-area-end --> --}}
 
     <!-- testimonial-area -->
-    <section class="testimonial">
+    {{-- <section class="testimonial">
     <div class="container">
     <div class="row align-items-center justify-content-between">
     <div class="col-lg-6 order-0 order-lg-2">
@@ -316,7 +316,7 @@ Home | EasyLearning Website
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <!-- testimonial-area-end -->
 
             <!-- blog-area -->
@@ -334,8 +334,8 @@ Home | EasyLearning Website
                                     <h2 class="title">Any questions? Feel free <br> to contact</h2>
                                 </div>
                                 <div class="homeContact__content">
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                    <h2 class="mail"><a href="mailto:Info@webmail.com">Info@webmail.com</a></h2>
+                                    {{-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p> --}}
+                                    <h2 class="mail"><a href=" ">abedinj3@gmail.com</a></h2>
                                 </div>
                             </div>
                             <div class="col-lg-6">

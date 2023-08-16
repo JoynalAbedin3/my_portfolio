@@ -2,7 +2,7 @@
 @section('main')
 
 @section('title')
-Blog | EasyLearning Website
+Blog |  JOYNAL
 @endsection
 
 <main> 
@@ -53,7 +53,7 @@ Blog | EasyLearning Website
     <div class="standard__blog__content">
         <div class="blog__post__avatar">
             <div class="thumb"><img src="{{ asset($item->blog_image) }}" alt=""></div>
-            <span class="post__by">By : <a href="#">Halina Spond</a></span>
+            <span class="post__by">By : <a href="#">joynal</a></span>
         </div>
         <h2 class="title"><a href="{{ route('blog.details',$item->id) }}">{{$item->blog_title}}</a></h2>
         <p>{!! Str::limit($item->blog_description, 200) !!}  </p>
